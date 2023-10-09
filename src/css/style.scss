@@ -371,3 +371,41 @@
 body {
   font-family: 'Lato', Arial, sans-serif; 
 }
+
+/*text color*/
+
+$darktext:black;
+$lighttext:#ffffff;
+
+/*general*/
+
+h1 {
+    font-size: 43px;
+    line-height: 34px;
+    color:$darktext
+  };
+
+  h2 {
+    font-size: 40px;
+    line-height: 31px;
+    color:$lighttext
+
+  };
+
+  h3{
+    font-size: 34px;
+    line-height: 32px;
+    color:$darktext
+  }
+
+  h4{
+    font-size: 20px;
+    line-height: 26px;
+    color:$lighttext
+  }
+
+  p {
+
+    font-size: 14px;
+    color: $darktext;
+  }

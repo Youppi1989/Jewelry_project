@@ -415,3 +415,36 @@ h1 {
     margin: 0 auto;
 
 }
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &__image {
+      width: 100px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+
+    &-item {
+      margin-left: 40px; 
+    }
+  }
+
+  &__icons {
+    display: flex;
+
+    &-icon {
+      margin-left: 20px; 
+    }
+  }
+}

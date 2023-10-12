@@ -4,144 +4,153 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jewelry_landing</title>
-  <link rel="stylesheet" href="../src//css/style.scss">
+  <link rel="stylesheet" href="../src/css/style.css">
 
 </head>
 <body>
+  <div class="background-container">
   <header class="header">
     <div class="container">
-      <div class="header_frame">
-        <div class="header_logo">
-          <a><img class="header_logo-image" src="./img/logo.svg" alt='jewelry logo'/></a>
+      <div class="header__frame">
+        <div class="header__logo">
+          <a><img class="header__logo-image" src="./img/logo.svg" alt='jewelry logo'/></a>
         </div>
-        <nav class="header_menu">
-          <a class="header_menu-item" href="">Ювелирные изделия</a>
-          <a class="header_menu-item" href="">Часы</a>
-          <a class="header_menu-item" href="">Ароматы</a> 
-          <a class="header_menu-item" href="">Бренды</a>
-          <a class="header_menu-item" href="">Свадебные украшения</a>
-          <a class="header_menu-item" href="">Другое</a>
+        <nav class="header__menu">
+          <a class="header__menu-item" href="">Ювелирные изделия</a>
+          <a class="header__menu-item" href="">Часы</a>
+          <a class="header__menu-item" href="">Ароматы</a> 
+          <a class="header__menu-item" href="">Бренды</a>
+          <a class="header__menu-item" href="">Свадебные украшения</a>
+          <a class="header__menu-item" href="">Другое</a>
         </nav>
-        <div class="header_icons">
-          <a><img class="header_icon" src="./img/like_icon.svg" alt='like'/></a>
-          <a><img class="header_icon" src="./img/basket.svg" alt='basket'/></a>
-          <a><img class="header_icon" src="./img/burger.svg" alt='burger'/></a>
+        <div class="header__icons">
+          <a><img class="header__icons-icon" src="./img/like_icon.svg" alt='like'/></a>
+          <a><img class="header__icons-icon" src="./img/basket.svg" alt='basket'/></a>
+          <a><img class="header__icons-icon" src="./img/burger.svg" alt='burger'/></a>
         </div>
       </div>
     </div>
   </header>
   
-  
 <main>
-    <section class="presentation">
-      <div class="container">
-<div class="highJewelry_container">
-    <div class="item">
-        <img src="./img/high_jewelry.svg" alt="High jewelry">
-        <img src="./img/ring.svg" alt="The ring">
-    </div>
-    <div class="show_collection">
-        <div class="line"></div>
-        <p class="show">Смотреть коллекцию</p>
-    </div>
-</div>
-<p>КОЛЬЦО TRINITY, Cartier</p>
-<p>Белое золото, бриллианты</p>
-<p>498 000 ₽</p>
-</section>
-
-<section class="catalog">
-  <div class="container">
-    <div class="catalog_choose">
-        <a class="catalog_show n1" href=""><span>Для мужчин</span></a>
-        <a class="catalog_show n2"  href=""><span>Для женщин</span></a>
+  <section class="presentation">
+    <div class="container">
+      <div class="highJewelry_container">
+        <div class="item">
+          <img class="the_ring" src="./img/ring.svg" alt="The ring">
+        </div>
+        <div class="show_collection">
+          <p class="show"><a href="">Смотреть коллекцию</a></p>
+        </div>
+      </div>
+      <div class="ring_info">
+        <p class="ring_text">КОЛЬЦО TRINITY, Cartier</p>
+        <p class="ring_text">Белое золото, бриллианты</p>
+        <p class="ring_text"><span>498 000 ₽</span></p>
       </div>
     </div>
-</section>
-<section class="find_your_store">
-  <div class="container">
-    <div class="your_stores">
-        <a href=""><span>Найди бутик около себя</span></a>
-        <p>Введите свой адрес и узнайте о самых ближайших бутиках к вам</p>
+  </div>
+  </section>
+  <section class="catalog">
+    <div class="container">
+      <div class="catalog_choose">
+        <a class="catalog__show-n1" href="#">
+          <span>Для мужчин</span>
+        </a>
+        <a class="catalog__show-n2" href="#">
+          <span>Для женщин</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="find_your_store">
+    <div class="container">
+      <div class="stores">
+        <h2 class="title_h2"><a href="#"><span>Найди бутик около себя</span></a></h2>
+        <p class="text_content">Введите свой адрес и узнайте<br>о самых ближайших бутиках к вам</p>
         <div class="input-container">
-            <input type="text" placeholder="введите адрес" class="line-input">
-          </div>
-          <div class="map_marks">
-          <img class="map" src="../src/img/map.png" alt="Map">
-          <img class="mark" src="../src/img/mark_map.svg" alt="Map mark">
-        </div>
+          <input type="text" placeholder="введите адрес" class="line-input">
         </div>
       </div>
     </div>
-</section>
-<section class="jewelries">
-    <div class="grid-container">
-        <div class="square">
-            <img class="big_brilliant" src="./img/big_brilliant_ring.png" alt="Big brilliant ring">
-            <h1 class="title">КОЛЬЦО jow’s, Cartier</h1>
-            <p>Белое золото, бриллианты</p>
-            <p>674 000 ₽</p>
-        </div>
-        <div class="square">
-            <img class="cartier" src="./img/cartier.png" alt="Cartier ring">
-            <h1 class="title">КОЛЬЦО croix, Cartier</h1>
-            <p>Желтое, белое, розовое золото</p>
-            <p>432 000 ₽</p>
-        </div>
-        <div class="vertical-rectangle">
-            <img class="model" src="./img/model.png" alt="Model with necklace">
-            <h1 class="title">Колье etoile, HUBLOT</h1>
-            <p>Белое золото, бриллианты</p>
-            <p>539 000 ₽</p>
-        </div>
-        <div class="square">
-            <img class="earrings_green" src="./img/earrings_green.png" alt="Green earring with gold">
-            <h1 class="title">Серьги moon, HUBLOT</h1>
-            <p>Желтое золото, сапфир</p>
-            <p>498 000 ₽</p>
-        </div>
-        <div class="square">
-            <img class="pearl_earrings" src="./img/pearl_earrings.png" alt="Pearl earrings">
-            <h1 class="title">Cерьги win, BLANCPAIN</h1>
-            <p>Желтое золото, жемчуг</p>
-            <p>398 000 ₽</p>
-        </div>
+  </section>
+  <section class="map_section">
+      <div class="stores_marks">
+        <img class="map" src="../src/img/map.png" alt="Map">
       </div>
-</section>
+    </div>
+  </section>
+<section class="jewelries">
+  <section>
+    <div class="grid-container">
+      <div class="square">
+        <img class="big_brilliant" src="./img/big_brilliant_ring.png" alt="Big brilliant ring">
+        <h1 class="title">КОЛЬЦО jow’s, Cartier</h1>
+        <p>Белое золото, бриллианты</p>
+        <p>674 000 ₽</p>
+      </div>
+      <div class="vertical-rectangle">
+        <img class="model" src="./img/model.png" alt="Model with necklace">
+        <h1 class="title">Колье etoile, HUBLOT</h1>
+        <p>Белое золото, бриллианты</p>
+        <p>539 000 ₽</p>
+      </div>
+      <div class="square">
+        <img class="cartier" src="./img/cartier.png" alt="Cartier ring">
+        <h1 class="title">КОЛЬЦО croix, Cartier</h1>
+        <p>Желтое, белое, розовое золото</p>
+        <p>432 000 ₽</p>
+      </div>
+      <div class="square">
+        <img class="earrings_green" src="./img/earrings_green.png" alt="Green earring with gold">
+        <h1 class="title">Серьги moon, HUBLOT</h1>
+        <p>Желтое золото, сапфир</p>
+        <p>498 000 ₽</p>
+      </div>
+      <div class="square">
+        <img class="pearl_earrings" src="./img/pearl_earrings.png" alt="Pearl earrings">
+        <h1 class="title">Cерьги win, BLANCPAIN</h1>
+        <p>Желтое золото, жемчуг</p>
+        <p>398 000 ₽</p>
+      </div>
+    </div>
+  </section>
+  
  <section class="social_links">
   <div class="container">
        <div class="media">
-             <h2>Мы <br>в социальных сетях</h2>
-          <div class="slider-container">
-                 <div class="slider">
-                  <div class="slide">s
+        <h2> <span class="we">Мы в социальных сетях</span></h2>
+          <div class="social_images">
                     <img src="./img/jewelry_example1.png" alt="Jewelry example">
-                  </div>
-                  <div class="slide">
                     <img src="./img/jewelry_example2.png" alt="Jewelry example">
-                  </div>
-                  <div class="slide">
                     <img src="./img/jewelry_example3.png" alt="jewelry example">
                   </div>
-                </div>
-                <div class="slider-controls">
-                  <div class="arrow left-arrow">
-                    <img src="./img/arrow_left.svg" alt="Left Arrow">
+                  <div class="arrows_and_icons">
+                    <div class="slider-controls">
+                      <div class="arrow left-arrow">
+                        <img src="./img/arrow_left.svg" alt="Left Arrow">
+                      </div>
+                      <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </div>
+                      <div class="arrow right-arrow">
+                        <img src="./img/arrow_right.svg" alt="Right Arrow">
+                      </div>
+                    </div>
                   </div>
-                  <div class="dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                  </div>
-                  <div class="arrow right-arrow">
-                    <img src="./img/arrow_right.svg" alt="Right Arrow">
-                  </div>
-                </div>
-              </div>
+                  
 <div class="social_icons">
     <a href= "" target ="_blank" rel="nofollow"><img class="facebook" src="./img/Facebook.svg" alt="Facebbok icon"></a>
     <a href= "" target ="_blank" rel="nofollow"><img class="instagram" src="./img/Instagram.svg" alt="Instagram icon"></a>
 </div>
+
+</div>
+
+</div>
+
 </div>
  </section>
 <section class="info">

@@ -543,13 +543,13 @@ h1 {
   color:#272727;
 }
 .catalog__show-n1 {
-  background-image: url('../img/man.png');
+  background-image: url('../img/man3.png');
   margin-right: 50px;
 }
 
 
 .catalog__show-n2 {
-  background-image: url('../img/girl.png');
+  background-image: url('../img/girl2.png');
 }
 .find_your_store {
   display: flex;
@@ -621,6 +621,10 @@ section {
   grid-row: span 2; 
   background-color: #e0e0e0;
 }
+
+.title{
+  text-decoration: none;
+}
 .media{
   background-color: #272727;
   margin-top: 20px;
@@ -685,14 +689,14 @@ section {
 }
 
 .info{
-  height:600px;
+  height:530px;
   background-color: #EDEDED;
   margin-right: 29px;
 }
 
 .model_girl{
-height: 600px;
-width:600px;
+height: 500px;
+width:500px;
 
 }
 
@@ -735,10 +739,36 @@ color: $lighttext;
 
 .flex-container {
   display: flex;
-  justify-content: space-between; 
+  justify-content: flex-start;
+  margin-top: 14px;
+
 }
 
 .block {
-  width: 48%; 
+  width: 50%; 
+  margin-left: 14px;
+
 }
 
+.subscribe_icons{
+  display: flex;
+  margin-top: 20px;
+
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+
+}
+.subscribe{
+  margin-top: 15px;
+}
+.phone_number a{
+  color: #696705;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.icon{
+  margin-right: 7px;
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -336,7 +337,7 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 20px;
   line-height: 32px;
   color: black;
 }
@@ -469,6 +470,10 @@ p {
 
 .catalog__show-n2:hover::before {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.store_title {
+  color: #272727;
 }
 
 .catalog__show-n1 {
@@ -612,6 +617,68 @@ section {
 
 .we {
   margin-top: 40px;
+}
+
+.info {
+  height: 600px;
+  background-color: #EDEDED;
+  margin-right: 29px;
+}
+
+.model_girl {
+  height: 600px;
+  width: 600px;
+}
+
+.subscribe_info {
+  display: flex;
+}
+
+.forms {
+  margin: 20px 0px 0px 70px;
+}
+
+.telephone_number {
+  text-decoration: none;
+  color: #696705;
+}
+
+.map_section {
+  background-color: #272727;
+  margin: 0 50px;
+}
+
+.map {
+  height: 400px;
+  width: 600px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #272727;
+  width: 100%;
+}
+
+.footer_menu {
+  display: flex;
+  margin-top: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__menu-item {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Распределение элементов по ширине */
+}
+
+.block {
+  width: 48%; /* Ширина блока (можете подстроить под свои требования) */
 }
 
 /*# sourceMappingURL=style.css.map */

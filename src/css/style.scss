@@ -630,6 +630,9 @@ section {
 .media{
   background-color: #272727;
   margin-top: 20px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social_links {
@@ -648,18 +651,11 @@ section {
 .social_icons{
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 30%; 
+  justify-content: space-around;
 
 }
 
-.social_icons a {
-  margin-right: 7px; 
-  margin-bottom: 10px;
-
-}
-.social_icons a:last-child {
-  margin-right: 0;
-}
 .dots {
   display: flex;
   align-items: center;
@@ -684,10 +680,6 @@ section {
 
 .social_images img {
   margin: 0 10px; 
-}
-
-.we{
-  margin-top: 40px;
 }
 
 .info{
@@ -802,11 +794,12 @@ a.title {
 }
 
 .slider {
-  display: flex;
-  overflow: hidden;
+  display: block;
+  width: 70%;
 }
 .arrow {
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .dots {
@@ -824,4 +817,10 @@ a.title {
 
 .dot.active {
   background-color: #555;
+}
+
+.slider img {
+  width: 500px;
+  height: 500px; 
+  margin-left: 10px;
 }

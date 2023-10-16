@@ -326,6 +326,7 @@ h1 {
   font-size: 43px;
   line-height: 34px;
   color: black;
+  text-decoration: none;
 }
 
 h2 {
@@ -708,6 +709,59 @@ section {
 
 .icon {
   margin-right: 7px;
+}
+
+a.title {
+  text-decoration: none;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.sub_arrow {
+  display: flex;
+}
+
+.arrow-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #555;
 }
 
 /*# sourceMappingURL=style.css.map */

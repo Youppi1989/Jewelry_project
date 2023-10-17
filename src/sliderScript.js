@@ -31,3 +31,5 @@ dots.forEach((dot, index) => {
 
 // Show the first slide initially
 showSlide(currentSlide);
+
+

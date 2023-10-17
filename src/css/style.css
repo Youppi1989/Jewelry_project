@@ -354,7 +354,7 @@ p {
 }
 
 .container {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -760,6 +760,11 @@ a.title {
   width: 500px;
   height: 500px;
   margin-left: 10px;
+}
+
+.burger-icon {
+  display: none;
+  padding: 10px auto;
 }
 
 /*# sourceMappingURL=style.css.map */
